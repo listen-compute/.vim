@@ -8,8 +8,8 @@ set number                      "Displays line number
 set mouse=a                     "Allows you to use the mouse in ViM
 set bs=2                        "bullshit=2 allows you to backspace normally
 colorscheme molokai             "Color Scheme, looks shitty in most terminals, for gViM
-set guifont=Anonymous\ Pro\ for\ Powerline\ Regular "Sets font in gViM
-" set guifont=DejaVu\ Sans\ Mono\ for\ Powerline  "Sets font in gViM    
+" set guifont=Anonymous\ Pro\ for\ Powerline\ Regular "Sets font in gViM
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline  "Sets font in gViM    
 let mapleader=","               "Sets the leader key
 
 " BASIC SETTINGS 2
@@ -19,6 +19,7 @@ filetype plugin on
 filetype indent plugin on
 set omnifunc=syntaxcomplete#Complete
 set modeline
+set ff=unix
 
 " TABS & SPACING
 set tabstop=4
