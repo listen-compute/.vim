@@ -52,8 +52,13 @@ Assuming you're using linux, the local profile is tyically stored in your home d
 	git remote add [whatever here just don't start with a "."] URL
 	
 	example:
+	
 	git remote add origin https://github.com/lover-fighter/.vim.git 
 
+	or
+
+	git remote add origin git@github.com:username/repository.git
+	
 
 <h5>Some remote commands</h5>
 
@@ -65,7 +70,7 @@ Assuming you're using linux, the local profile is tyically stored in your home d
 
 	load up any new changes: 	git add .
 	load up specific changes:	git add [specific file]
-	commit + comment:		    git commit -m "[comment here]"
+	commit + comment:		git commit -m "[comment here]"
 	commit + comment example:	git commit -m "added auto-pairs as submodule"
 	
 
